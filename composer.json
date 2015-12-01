@@ -1,0 +1,24 @@
+{
+    "name": "ppi/latte-module",
+    "description": "Nette Latte template engine module",
+    "keywords": ["ppi", "nette", "latte", "templating", "view"],
+    "homepage": "https://github.com/ppi/ppi-nette-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Dragoonis",
+            "email": "paul@ppi.io"
+        }
+    ],
+    "support": {
+        "irc": "irc://irc.freenode.org/ppi",
+        "issues": "https://github.com/ppi/ppi-latte-module/issues"
+    },
+    "require": {
+        "latte/latte": "~2.3.7",
+    },
+    "autoload": {
+        "psr-4": { "PPI\\LatteModule\\": "src" }
+    },
+    "minimum-stability": "dev"
+}
