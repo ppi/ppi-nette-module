@@ -15,7 +15,7 @@
         "issues": "https://github.com/ppi/ppi-latte-module/issues"
     },
     "require": {
-        "latte/latte": "~2.3.7",
+        "latte/latte": "~2.3.7"
     },
     "autoload": {
         "psr-4": { "PPI\\LatteModule\\": "src" }
